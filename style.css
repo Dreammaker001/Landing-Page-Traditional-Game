@@ -1,0 +1,377 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.page1 {
+    background: url('assets/main-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: auto;
+}
+
+#page2 {
+    background: url('assets/the-games-bg(2).jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+}
+
+#page3 {
+    background: url('assets/features.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+}
+
+#page4 {
+    background: url('assets/bg-image-4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+#page5 {
+    background: url('assets/bg-image-5.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+#page6 {
+    background: black;
+    background-position: center;
+    height: auto;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+
+.letter-space {
+    letter-spacing: 3px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.judul {
+    font-size: 2.8rem;
+}
+
+.btn {
+    min-width: 15%;
+}
+
+.sub-judul {
+    font-size: 1.5rem;
+    margin: 3.5rem 0;
+}
+
+.sub-judul-size {
+    font-size: 1.5rem;
+    margin: 0 0 0 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.bg-abu {
+    background-color: rgb(38, 38, 38);
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-facebook-f:hover {
+    color: #4267B2;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.fa-twitch:hover {
+    color: #6441a5;
+}
+
+/*! page 1 special */
+
+.page1 .judul{
+    margin-top: 4rem;
+    font-size: 2.2rem;
+}
+
+.page1 .navbar {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(0, 0, 0, 0.5);
+    /* height: 4rem; */
+    align-items: center;
+}
+
+nav .nav-link {
+    color: white;
+}
+
+.h-75 button {
+    font-size: 1.3rem;
+}
+
+.page1 .link+p {
+    font-size: 2em;
+}
+
+.page1 div:nth-child(3) p a {
+    margin-top: -1%;
+}
+
+
+/*! page 2 special */
+#page2 .row {
+    height: auto;
+}
+
+#page2 .row .align-self-lg-start {
+    margin-top: 1.5rem;
+    padding: 0 0 0 2em;
+}
+
+#page2 .slide {
+    width: 90%;
+}
+
+#page2 .carousel-inner .carousel-item{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 53vh;
+    width: 100%;
+}
+
+/*! page 3 special */
+#page3 div:first-child{
+    padding:  0 0 0 16px;
+}
+
+#page3 .bg-opacity{
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.vr {
+    width: 2px;
+    opacity: 1;
+    height: 7em;
+    margin: 0.6em -2.6em 0 0;
+}
+
+.circle {
+    height: 17px;
+    width: 17px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+#page3 .sub-judul-size {
+    padding: 20% 0 0 0em;
+}
+
+#page3 .judul {
+    margin-bottom: 10%;
+}
+
+#page3 ul {
+    list-style: none;
+}
+
+#page3 ul li.active{
+    position: relative;
+}
+
+#page3 ul li.active::before{
+    content: "";
+    width: 2px;
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    margin: 0.4% 0em 0em 0.5em;
+}
+
+#page3 ul li a h3{
+    font-size: 1rem;
+}
+
+
+#page3 ul li p {
+    margin-left: 3.2em;
+}
+
+
+/*! page 4 special */
+
+#page4 .x-smal{
+    display: block;
+}
+
+#page4 .bg-opacity-50{
+    padding-bottom: 5rem;
+}
+
+#page4 div .text-start {
+    margin-left: 0;
+}
+
+#page4 table {
+    width: auto;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    min-height: 50vh;
+}
+
+#page4 table tbody tr td {
+    padding-bottom: 5%;
+}
+
+#page4 table p {
+    margin: 0;
+}
+
+#page4 h1 {
+    font-size: 1.6rem;
+}
+
+#page4 h3 {
+    font-size: 1.5rem;
+}
+
+#page4 table tr td p {
+    font-size: 1rem;
+}
+
+#page4 h1:first-child {
+    margin: 0 auto;
+}
+
+
+/*! page 5 special */
+
+.bg-profile {
+    width: 65px;
+    border-radius: 50%;
+    height: 65px;
+    margin-left: 1.3em;
+}
+
+.profile-circle {
+    width: 65px;
+    height: 65px;
+
+    background-size: cover;
+    background-position: center bottom;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: -3px;
+}
+
+
+#page5 .card span a {
+    margin: 3px 7px 0px 0px;
+    color: #6c757d;
+}
+
+#page5 .row div:first-child button.btn {
+    width: 35%;
+    padding: 1em 0em;
+}
+
+.card.mb-3.bg-card.w-75 {
+    padding-top: 1em;
+}
+
+.card .row p:first-child {
+    font-size: 1.5em;
+}
+
+#page5 .d-none .card{
+    margin-bottom: 1vw;
+}
+
+#page5 .carousel-inner{
+    width: auto;
+    margin-top: 1.5rem;
+}
+
+#page5 .carousel-control-prev, #page5 .carousel-control-next{
+    height: 50%;
+}
+
+/*! page 6 special */
+
+#page6 .jarak-atas{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#page6 .skull{
+    display: none;
+}
+
+#page6 h1.judul{
+    font-size: 2rem;
+}
+
+#page6 .input-group{
+    flex-direction: column;
+}
+
+#page6 .input-group button {
+    min-width: 34%;
+    margin-left: 0;
+    height: 3.7rem;
+    border-radius: 3%;
+}
+
+#page6 .form-floating {
+    width: 100%;
+}
+
+#page6 .form-floating input[type="email"] {
+    border: none;
+}
+
+#page6 .form-floating .form-control {
+    background-color: rgb(38, 38, 38);
+}
+
+#page6 .border-footer {
+    width: 80%;
+    border-bottom: 1px solid #50565e !important;
+    padding-bottom: 1%;
+}
+
+/* #page6 footer .width-policy {
+    width: 82.4%;
+} */
+
+#page6 footer .width-policy .text-muted{
+    margin-top: 1rem;
+}
+
+#page6 footer .width-policy nav a {
+    font-size: 80%;
+    padding: 0;
+}

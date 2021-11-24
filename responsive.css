@@ -1,0 +1,238 @@
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+@media (min-width: 320) {
+    .judul {
+        font-size: 3rem;
+    }
+
+
+    /*! page 1 special */
+    .page1 .judul {
+        font-size: 2.5rem;
+    }
+
+    /*! page 3 special */
+
+    #page3 ul li a h3 {
+        font-size: 1.2rem;
+    }
+
+
+    /*! page 4 special */
+    #page4 h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    /*! page 1 special */
+    .page1 {
+        height: 100%;
+    }
+
+    .page1 .judul {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+
+    /*! page 3 special */
+    #page3 ul li a h3 {
+        font-size: calc(1.3rem + .6vw);
+    }
+
+    #page3 ul li.active::before{
+        margin: 1% 0em 0em 0.5em;
+    }
+
+    /*! page 4 special */
+    #page4 {
+        height: 100%;
+    }
+
+    #page4 .x-smal {
+        display: none;
+    }
+
+    #page4 .bg-opacity-50 {
+        padding-bottom: 0;
+    }
+
+    #page4 div .text-start {
+        margin-left: 10%;
+    }
+
+    /*! page 5 special */
+
+    #page5 .carousel-inner {
+        width: 75%;
+        margin-top: 0;
+    }
+
+    /*! page 6 special */
+    #page6 .jarak-atas {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #page6 .skull {
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 56rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /*! page 2 special */
+    #page2 .row {
+        height: 100%;
+    }
+
+    #page2 .row .align-self-lg-start {
+        margin-top: 11em;
+        padding: 0 0 0 8em;
+    }
+
+    /*! page 3 special */
+    #page3 .bg-opacity {
+        background-color: rgb(0, 0, 0, 0);
+    }
+
+    #page3 ul li.active::before{
+        margin: 1.9% 0em 0em 0.5em;
+    }
+
+    /*! page 4 special */
+    #page4 table {
+        width: 43%;
+    }
+
+    /*! page 5 special */
+    #page5 .d-none .card {
+        margin-bottom: 1.5vw;
+    }
+
+    #page5 .carousel-inner {
+        width: auto;
+    }
+
+    /*! page 6 special */
+    #page6 {
+        height: 100%;
+    }
+
+    #page6 div:first-child {
+        height: 80%;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    .judul,
+    #page6 h1.judul {
+        font-size: 4.5rem;
+    }
+
+    /*! page 1 special */
+    .h-75 button {
+        font-size: 1.2vw;
+    }
+
+
+    /*! page 3 special */
+    .vr {
+        margin: 1.2em -2.6em 0 0;
+    }
+
+    /*! page 5 special */
+    #page5 .d-none .card {
+        margin-bottom: 2vw;
+    }
+
+    /*! page 6 special */
+    #page6 .input-group {
+        flex-direction: row;
+    }
+
+    #page6 .form-floating {
+        width: 57%;
+    }
+
+    #page6 .input-group button {
+        margin-left: 1rem;
+    }
+
+    #page6 footer .width-policy div.d-flex.justify-content-between {
+        margin-left: 1rem;
+    }
+
+    #page6 footer .width-policy {
+        width: 82.4%;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+    /*! page 4 special */
+    #page4 table {
+        width: 43%;
+        border: 1px solid rgb(255, 255, 255, 0.3);
+        min-height: 50vh;
+    }
+
+    #page4 h1 {
+        font-size: 4rem;
+    }
+
+    #page4 h3 {
+        font-size: 1.5rem;
+    }
+
+    #page4 table tr td p {
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+@media (min-height: 750px) {
+
+    /*! page 3 special */
+    /* #page3 .sub-judul-size {
+        padding: 10% 0 0 0.3em;
+    } */
+
+
+    /*! page 4 special */
+    /* #page4 table {
+        width: 43%;
+        border: 1px solid rgb(255, 255, 255, 0.3);
+        min-height: 50vh;
+    }
+
+    #page4 h1 {
+        font-size: 4rem;
+    }
+
+    #page4 h3 {
+        font-size: 2rem;
+    }
+
+    #page4 table tr td p {
+        font-size: 1.5rem;
+    } */
+}
