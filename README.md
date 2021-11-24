@@ -23,6 +23,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Instagram][instagram-shield]][instagram-url]
 
 
 <!-- TABLE OF CONTENTS -->
@@ -115,18 +116,20 @@ A list of resources I found useful and I would like to credit. I've included som
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Dreammaker001/Landing-Page-Traditional-Game?color=%2300ff37&style=for-the-badge
 [contributors-url]: https://github.com/Dreammaker001/Landing-Page-Traditional-Game/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Dreammaker001/Landing-Page-Traditional-Game?style=for-the-badge
 [forks-url]: https://github.com/Dreammaker001/Landing-Page-Traditional-Game/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Dreammaker001/Landing-Page-Traditional-Game?style=for-the-badge
 [stars-url]: https://github.com/Dreammaker001/Landing-Page-Traditional-Game/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Dreammaker001/Landing-Page-Traditional-Game?color=%23ffc800&style=for-the-badge
 [issues-url]: https://github.com/Dreammaker001/Landing-Page-Traditional-Game/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Dreammaker001/Landing-Page-Traditional-Game?color=%2300ff1e&style=for-the-badge
 [license-url]: https://github.com/Dreammaker001/Landing-Page-Traditional-Game/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/bastian-bangun-74ab64219/
+[instagram-shield]: https://img.shields.io/badge/Instagram-follow-green?style=for-the-badge&logo=instagram
+[instagram-url]: https://www.instagram.com/dreammaker001/
 [product-screenshot1]: assets/Screenshot1.png
 [product-screenshot2]: assets/Screenshot2.png
 [product-screenshot3]: assets/Screenshot3.png
